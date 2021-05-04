@@ -1,7 +1,7 @@
 from telegram.ext import *
 from selenium import webdriver
 
-API_KEY = '1724677281:AAG_oTI-O2Tr0GPWMj6KpOEI0ul6vJw5VFc'
+API_KEY = '#your telegram bot token'
 
 def get_Data(url_path,sl,tl):
     browser = webdriver.Chrome()
